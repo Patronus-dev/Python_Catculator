@@ -1,6 +1,8 @@
 import tkinter as tk
+from playsound import playsound
 
 window = tk.Tk()
+window.title("Cat🐈culator®")
 
 # calculator title
 tk.Label(
@@ -27,7 +29,7 @@ lbl_calc_result = tk.Label(
     width=35,
     height=2,
     anchor='e',
-    font=("Arial", 20),
+    font=("Comic Sans MS", 20),
     bg="white",
     relief="sunken"
 )
@@ -66,6 +68,7 @@ def check_last_number_is_decimal(current):
 def insert_number_in_calc_result(btn_text):
     current = lbl_calc_result['text']
     if btn_text == 'C':
+        playsound('sound/cat-meow-fx.mp3')
         lbl_calc_result['text'] = '0'
     elif current == '0':
         lbl_calc_result['text'] = btn_text
@@ -92,7 +95,7 @@ for i, calc_key in enumerate(calc_keys):
         command=calc_key['command'],
         height=2
     )
-    row = (i // 4) + 2  # چون از ردیف ۲ شروع می‌کنیم
+    row = (i // 4) + 2
     col = i % 4
     btn.grid(row=row, column=col, sticky="nsew")
 
