@@ -33,3 +33,26 @@ Cat version 😁
 1. Make sure Python is installed:
    ```bash
    python 3.12 version
+
+2. Clone the repository or download the files:
+   git clone https://github.com/YOUR_USERNAME/calculator-gui.git
+   cd calculator-gui
+   
+3. Run the app:
+   python main.py
+   
+📁 Project Structure
+   css
+   Copy
+   Edit
+   calculator-gui/
+   ├── main.py            # Main calculator code
+   ├── README.md
+   ├── preview.png        # Optional screenshot
+   └── .gitignore
+
+
+👨‍💻 Author
+Created with ❤️ by Mehdi Sabz
+📧 mehdii.dev@gmail.com
+
