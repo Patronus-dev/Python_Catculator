@@ -35,24 +35,27 @@ Cat version 😁
    python 3.12 version
 
 2. Clone the repository or download the files:
+   ```bash
    git clone https://github.com/YOUR_USERNAME/calculator-gui.git
    cd calculator-gui
    
-3. Run the app:
+4. Run the app:
    python main.py
    
-📁 Project Structure
-   css
-   Copy
-   Edit
+---
+
+## 📁 Project Structure
+   ```bash
    calculator-gui/
    ├── main.py            # Main calculator code
    ├── README.md
    ├── preview.png        # Optional screenshot
    └── .gitignore
+   ```
 
+---
 
-👨‍💻 Author
-Created with ❤️ by Mehdi Sabz
-📧 mehdii.dev@gmail.com
+## 👨‍💻 Author
+Created with ❤️ by Mehdi Sabz  🌐Website: **www.patronuscode.com**
+📧Mail: mailto:mehdii.dev@gmail.com
 
